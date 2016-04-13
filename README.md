@@ -10,6 +10,11 @@ __*A webpage that makes a grocery list*__
 
 To practice JavaSript arrays, loops, and mapping
 
+#### Known Issues:
+* Forgot to alphabetize shopping list
+* Forgot to uppercase shopping list
+* Did not map to second array
+
 #### Uses:
 * [FreshStart](https://github.com/karenfreemansmith/freshstart)
 
