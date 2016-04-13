@@ -10,7 +10,15 @@ $("#addIt").submit(function(event) {
 });
 
 $("#showList").click(function() {
+  $("#theList").empty();
   groceries.forEach(function(grocery) {
     $("#theList").append("<li>(" + grocery[0] + ") "+ grocery[1] + "</li>");
   });
+  $("#myList").toggle();
+  $("#moreStuff").toggle();
+});
+
+$("#hideList").click(function() {
+  $("#myList").toggle();
+  $("#moreStuff").toggle();
 });

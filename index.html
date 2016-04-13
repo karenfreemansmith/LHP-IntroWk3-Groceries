@@ -12,10 +12,17 @@
     <div class="container">
       <h1>Grocery List</h1>
       <div class="row">
-        <div class="form-group col-xs-6">
+        <div class="form-group col-xs-6" id="moreStuff">
+          <h3>What to we need? / How many?</h3>
           <form id="addIt">
-            <label for="original">What to we need?</label>
-            <input id="item" class="form-control" type="text"><input id="amount" class="form-control" type="number">
+            <div class="row">
+              <div class="col-xs-6">
+                <input id="item" class="form-control" type="text">
+              </div>
+              <div class="col-xs-6">
+                <input id="amount" class="form-control" type="number">
+              </div>
+            </div>
             <button type="submit" class="btn btn-primary btn-block">Add to List</button>
           </form>
           <p><button id="showList" class="btn btn-info btn-block">Show List</button></p>
@@ -24,7 +31,7 @@
           <h3>Shopping List</h3>
           <ul id="theList">
           </ul>
-          <button type="submit" id="hideList" class="btn">Add to List</button>
+          <button id="hideList" class="btn btn-primary btn-block">Add to List</button>
         </div>
       </div>
     </div>
