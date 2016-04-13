@@ -5,14 +5,20 @@ $("#addIt").submit(function(event) {
   var groceryItem = $("input#item").val();
   var groceryAmount = $("input#amount").val();
 
-  groceries.push([groceryAmount, groceryItem]);
+  groceries.push([groceryItem, groceryAmount]);
   event.preventDefault();
 });
 
 $("#showList").click(function() {
   $("#theList").empty();
-  groceries.forEach(function(grocery) {
-    $("#theList").append("<li>(" + grocery[0] + ") "+ grocery[1] + "</li>");
+  /* Map functin returns strange results "A/B" for all items???
+  var myGroceries=groceries.map(function(item){
+    return item[1].toUpperCase();
+  });
+  */
+  groceries.sort();
+  groceries.forEach(function(item) {
+    $("#theList").append("<li>(" + item[1] + ") "+ item[0].toUpperCase() + "</li>");
   });
   $("#myList").toggle();
   $("#moreStuff").toggle();
