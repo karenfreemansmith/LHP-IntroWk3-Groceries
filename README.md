@@ -1,23 +1,21 @@
 
-# [Grocery List](http://karenfreemansmith.github.io/groceries)
+# [Grocery List](https://karenfreemansmith.github.io/groceries)
 ![project screenshot](/img/screenshot.jpg)
 
-__Version 1: April 12, 2016__
-## by [Karen Freeman-Smith](http://karenfreemansmith.github.io)
+__Version 2: August 15, 2016__
+## by [Karen Freeman-Smith](https://karenfreemansmith.github.io)
 
 ### Description
 __*A webpage that makes a grocery list*__
-
-To practice JavaSript arrays, loops, and mapping
+Updated to improve page appearance and improve user experience by showing both form and list, and resetting list between items.
 
 #### Known Issues:
-* Did not get array map to second array to work right, is returning all "A/B"
-
-#### Uses:
-* [FreshStart](https://github.com/karenfreemansmith/freshstart)
+* none
 
 ### Setup/Installation
-*None required. Clone or download and extract to use*
+* None required, [view page here](https://karenfreemansmith.github.io/groceries)
+* Clone "https://github.com/karenfreemansmith/groceries"
+* Download and extract to use
 
 ### Support & Contact
 For questions or comments, please __email [Karen](karenfreemansmith@gmail.com)__
