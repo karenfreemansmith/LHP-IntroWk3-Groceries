@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-compatible">
     <meta name="viewport" value="width=device-width, initial-scale=1">
     <title>Grocery List</title>
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -12,26 +11,24 @@
     <div class="container">
       <h1>Grocery List</h1>
       <div class="row">
-        <div class="form-group col-xs-6" id="moreStuff">
+        <div class="form-group col-xs-8" id="moreStuff">
           <h3>What to we need? / How many?</h3>
           <form id="addIt">
             <div class="row">
-              <div class="col-xs-6">
+              <div class="col-xs-9">
                 <input id="item" class="form-control" type="text">
               </div>
-              <div class="col-xs-6">
+              <div class="col-xs-3">
                 <input id="amount" class="form-control" type="number">
               </div>
             </div>
             <button type="submit" class="btn btn-primary btn-block">Add to List</button>
           </form>
-          <p><button id="showList" class="btn btn-info btn-block">Show List</button></p>
         </div>
-        <div class="col-xs-6" id="myList">
+        <div class="col-xs-4" id="myList">
           <h3>Shopping List</h3>
           <ul id="theList">
           </ul>
-          <button id="hideList" class="btn btn-primary btn-block">Add to List</button>
         </div>
       </div>
     </div>
