@@ -11,6 +11,7 @@ $("#addIt").submit(function(event) {
   groceries.forEach(function(item) {
     $("#theList").append("<li>(" + item[1] + ") "+ item[0].toUpperCase() + "</li>");
   });
-  $("input#item").val()="";
-  $("input#amount").val()="";
+  $("input#item").val("");
+  $("input#amount").val("");
+  $("input#item").focus();
 });
